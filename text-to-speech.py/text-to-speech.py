@@ -1,4 +1,4 @@
-from pyttsx3 import engine
+import pyttsx3
 engine = pyttsx3.init()
 voices = engine.getproperty("voices")
 voice = engine.setproperty("voice"[1].id)
